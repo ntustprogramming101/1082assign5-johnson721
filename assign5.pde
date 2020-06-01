@@ -67,7 +67,7 @@ void setup() {
   soilEmpty = loadImage("img/soils/soilEmpty.png");
 
   font = createFont("font/font.ttf", 56);
-  //textFont(font);
+  textFont(font);
 
   // Load PImage[][] soils
   soils = new PImage[6][5];
